@@ -1,0 +1,4 @@
+FOUR KINGDOMS CHESS — playable prototype
+Offline: open index.html in a modern browser. Choose mode then New offline game.
+Online: install Node.js (18+), open a terminal in this folder, run node server.js. Open http://localhost:8080. Create a room and share its code. Other computers on the same network use http://HOST-LAN-IP:8080. For internet play deploy server.js and index.html together on a Node-compatible host, with HTTPS and the PORT environment variable. Share the hosted URL and room code. No hosting is included. Rooms live in memory and disappear when the server stops; no reconnect or account system. 
+Rules: simplified king-capture variant, not official four-player chess. No check/checkmate, castling, en passant, clocks, or draw rules. Opposite colors are teammates in team mode. Points are informational; survival determines winner. Pawn promotion is automatic queen at far edge. Offline undo only. No external dependencies.

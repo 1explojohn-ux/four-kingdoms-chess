@@ -1,0 +1,6 @@
+1. Extract this ZIP. Create a GitHub repository and upload all files in this folder to its root.
+2. Sign in at https://dashboard.render.com/ and create a Web Service connected to that repository (or use the Blueprint with render.yaml).
+3. Select Node runtime, build command npm install, start command npm start. Choose an available plan and review pricing before deploying.
+4. Open the HTTPS URL Render assigns. Create a room and share that URL and room code with three players. Do not open index.html locally for online play.
+5. Keep the game tab open. Rooms are in memory; restarts erase games. No reconnect support. Free hosting may sleep or have usage limits. School networks may block access.
+Rules remain simplified king-capture chess, not official four-player chess.
